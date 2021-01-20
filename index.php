@@ -67,7 +67,7 @@ $arrayPartiteBasket = [
  $results = "";
 
  for($i = 0; $i < count($arrayPartiteBasket); $i++){
-   $results .= $arrayPartiteBasket[$i]["Home"] . " - " . $arrayPartiteBasket[$i]["Visitor"] . " | ". $arrayPartiteBasket[$i]["HomePoints"] . " - ". $arrayPartiteBasket[$i]["VisitorPoints"] . "<br>";
+   $results .= $arrayPartiteBasket[$i]["Home"] . " - " . $arrayPartiteBasket[$i]["Visitor"] . " | ". $arrayPartiteBasket[$i]["HomePoints"] . " - ". $arrayPartiteBasket[$i]["VisitorPoints"] . "<br>" . "<br>";
  };
 
  ?>
