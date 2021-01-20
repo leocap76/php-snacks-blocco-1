@@ -94,6 +94,9 @@ $arrayPartiteBasket = [
 <!-- ESEMPI -->
 <!-- <h1>Nome completo: <?php echo $nome . " " . $cognome; ?></h1>  STAMPA CON CONCATENAZIONE TRAMITE "."
 <h2>Nome: <?php echo $nome; ?></h2>       STAMPA SOLO NOME
+<h1>nome:  <?php echo $nome . ", " . "numero lettere:" . strlen($nome); ?>  </h1> STRLEN: NUMERO DI LETTERE DI CUI è COMPOSTO IL "NOME"
+<h1>nome:  <?php  strpos($nome, "a") ?> VERIFICA NEL "NOME", IN CHE POSIZIONE SI TROVA LA LETTERA "A"
+<?php is_numeric($nome) ?>    VERIFICA CHE L'ELEMENTO SIA UN NUMERO 
 <h2>Cognome: <?php echo $cognome; ?></h2>  STAMPA SOLO COGNOME
 <p>Variabile GET: <?php echo $_GET["nome"]; ?></p>  STAMPA CON RICHIAMO A VARIABILE
 <p><?php var_dump($arrayText); ?></p>   STAMPA ARRAY
